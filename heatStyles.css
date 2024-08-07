@@ -1,8 +1,78 @@
 *, ::before, ::after {
-    border: 1px solid magenta;
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width:100%;
+
 }
 
+body {
+    /* add font through HTML file */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background-image: url('https://freerangestock.com/sample/153273/a-blurry-image-of-a-red-and-blue-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    height: 100vh;
+    width: 100vH;
+}
+
+.content {
+    background:rgb(84, 33, 68, 49%);
+    
+    padding: 25px 30px;
+    border-radius: 15px;
+    text-align:center
+}
+
+#moreContent {
+    box-shadow: none;
+}
+
+h1 {
+    font-size: 6vh;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration {
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+
+.begin-button {
+    background-color: #542144;
+    border: none;
+    color: #ffcde9;
+    padding: 2.5% 10%;
+    margin-top: 15px;
+    font-size: 1em;
+    font-weight: bold;
+
+    cursor: pointer;
+    /*add transition transition: background-color 0.3s ease;*/
+}
+
+.begin-button:hover {
+    background-color: #ffcde9;
+    color: #542144;
+}

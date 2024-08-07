@@ -4,23 +4,25 @@
 <head>
     <meta charset = "UTF-8" name = "viewport" content = "width = device-width, initial-scale = 1.0"></meta>
     <link rel = "stylesheet" href = "heatStyles.css">
+    <link src="heatJavascript.js"></link>
     <title>Heat Illness Diagnostic</title>
-
 </head>
 
 <body>
+    
     <div id = "container">
-        <div id = "title-box"><span id = "title-text"><strong>Heat Illness</span></strong></div>
-        <div id = "main-description-box"><span id = "main-description-text">Heat Illnesses are very prevalent...</span></div>
-        <div id = "contact-info">
-            <span id = "Contact-heading-box">Contact me at....</span>
-            <!–Make 2-contacts into a flex-box with 2 columns (git & linkedin)->
-            <div id = "2-contacts">
-                <span class = "contact-text">linkedIn</span>
-                <span class = "contact-text">gitHub</span>
-                <!–Maybe replace span with icons, make sure to add Aria->
+        <div class="content">
+            <h1>Heat Illness Diagnostic</h1>
+            <div class = "content" id = "moreContent">
+                <p class="description">description...</p>
+                <p class="description">choose...</p>
+                <div class="image-container">
+                    <img src="heat-illness-image.png" alt="Heat Illness" class="illustration">
+                </div>
+                <button class="begin-button">BEGIN</button>
             </div>
         </div>
+        
     </div>
 
     
