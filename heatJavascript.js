@@ -1,3 +1,14 @@
+//DOCUMENT QUERIES
+let h1 = document.selector("h1");
+let img = document.selector("img");
+let innerDiv = document.getElementById('moreContent');
+let p1 = document.getElementById('p1');
+let p2 = document.getElementById('p2');
+let beginButton = document.getElementById('begin-button');
+let pageNumber = 0;
+
+
+//ARRAYS
 const diseases = [
     {
         name:"Heat Stroke",
@@ -74,3 +85,42 @@ const questions = [
     },
 ]
 
+//INITIALIZE BUTTONS
+beginButton.addEventListener("Click", Begin)
+
+
+//PAGE SET UP FXNS
+function Begin() {
+
+    //get rid of begin button
+    //add two buttons - edit through css as well
+    const beginHTML = `
+        beginButton.style.display = "none";
+        <button class = "yes/no" id = "yesButton">Yes</button>
+        <button class = "yes/no" id = "noButton">No</button>
+    `
+    innerDiv.innerHTML += beginHTML;
+    
+    //assign each button to yes/no function
+    //set p2.innerText = ""
+}
+
+function updateSymptoms() {
+
+    //change value of pageNumber after each button is clicked
+    //depending on pageNumber, corresponding question is popped up i.e. p1.innerText = questions["question"][pageNumber]
+    //to use, call function updateSymptoms(pageNumber)
+
+}
+
+function diagnosis() {
+    /*
+
+    */
+}
+
+function restart() {
+    /*
+    call begin() onclick
+    */
+}

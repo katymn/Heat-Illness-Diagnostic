@@ -39,6 +39,8 @@ body {
     box-shadow: none;
 }
 
+/*TEXT*/
+
 h1 {
     font-size: 5vh;
     margin: 0px 24px 16px;
@@ -51,6 +53,8 @@ p {
     margin-bottom: 20px;
 }
 
+/*IMAGES*/
+
 .image-container {
     display: flex;
     justify-content: center;
@@ -62,6 +66,7 @@ p {
     border-radius: 10px;
 }
 
+/*BUTTONS*/
 
 .begin-button {
     background-color: #542144;
@@ -81,18 +86,20 @@ p {
     color: #542144;
 }
 
-@media (max-width: 246px) {
+/*RESPONSIVENESS*/
+
+@media (max-width: 350px) {
     body {
-        height: 126vH;
+        height: 120vH;
     }
     }
 
 @media (max-width: 300px) {
     h1 {
-      font-size: 1.3em
+      font-size: 1.4em
     }
     p {
-        font-size:0.9em
+        font-size:0.95em
       }
   }
 
