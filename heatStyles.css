@@ -68,7 +68,7 @@ p {
 
 /*BUTTONS*/
 
-.begin-button {
+button {
     background-color: #542144;
     border: 3px solid #79496a;
     color: #ffcde9;
@@ -81,7 +81,7 @@ p {
     /*add transition transition: background-color 0.3s ease;*/
 }
 
-.begin-button:hover {
+button:hover {
     background-color: #ffcde9;
     color: #542144;
 }

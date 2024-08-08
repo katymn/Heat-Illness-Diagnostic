@@ -1,12 +1,11 @@
 //DOCUMENT QUERIES
-let h1 = document.selector("h1");
-let img = document.selector("img");
+let h1 = document.querySelector("h1");
+let img = document.querySelector("img");
 let innerDiv = document.getElementById('moreContent');
 let p1 = document.getElementById('p1');
 let p2 = document.getElementById('p2');
 let beginButton = document.getElementById('begin-button');
 let pageNumber = 0;
-
 
 //ARRAYS
 const diseases = [
@@ -86,23 +85,25 @@ const questions = [
 ]
 
 //INITIALIZE BUTTONS
-beginButton.addEventListener("Click", Begin)
+beginButton.addEventListener("click", Begin)
 
 
 //PAGE SET UP FXNS
 function Begin() {
-
+    console.log("begin button pressed")
     //get rid of begin button
+    beginButton.style.display = "none";
     //add two buttons - edit through css as well
     const beginHTML = `
-        beginButton.style.display = "none";
-        <button class = "yes/no" id = "yesButton">Yes</button>
-        <button class = "yes/no" id = "noButton">No</button>
-    `
+        <button class = "yesno" id = "yesButton">Yes</button>
+        <button class = "yesno" id = "noButton">No</button>;
+    `;
     innerDiv.innerHTML += beginHTML;
     
     //assign each button to yes/no function
-    //set p2.innerText = ""
+
+    //Clear p2 text
+    p2.innerText = "";
 }
 
 function updateSymptoms() {
