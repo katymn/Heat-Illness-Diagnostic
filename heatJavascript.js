@@ -41,37 +41,36 @@ const questions = [
     {
         symptom: 1,
         question: "Is patient experiencing severe symptoms: i.e. confusion, loss of consciousness, seizures?",
-        image:""
+        image:"https://thumb.ac-illust.com/ba/baad3b42e1ec1fee3ea95a10b11ff3b9_t.jpeg"
     },
     {
         symptom: 2,
         question: "Is patient experiencing any moderate symptoms: i.e. heavy sweating, rapid pulse, dizziness, nausea?",
-        image:""
+        image:"https://thumb.ac-illust.com/ba/baad3b42e1ec1fee3ea95a10b11ff3b9_t.jpeg"
     },
     {
         symptom: 3,
         question: "Is patient experiencing muscle cramps?",
-        image:""
+        image:"https://media.istockphoto.com/id/952974270/vector/worker-of-heat-stroke.jpg?s=612x612&w=0&k=20&c=-HqAwnkO5bUuk5GAvoIrl1Vsg1r3jN9w9-RH2JlAQdE="
     },
     {
         symptom: 4,
         question: "Is patient experiencing breathing difficulties or tingling sensations",
-        image:""
+        image:"https://media.istockphoto.com/id/1251461478/vector/it-is-an-illustration-of-a-male-sportsman-who-had-a-fever-cramp-vector-image.jpg?s=612x612&w=0&k=20&c=HfPiZRRgC1uItxroDvcQDlBGkOjgllB-DUN98VkR6lk="
     },
     {
         symptom: 5,
         question: "Is patient experiencing swelling in extremities?",
-        image:""
+        image:"https://media.istockphoto.com/id/1226761464/vector/swelling-of-baby-limbs.jpg?s=612x612&w=0&k=20&c=JEukWDjGQDPS8xvz7I-3YLbW4qGd6yt5MAC8Z3OgLME="
     },
     {
         symptom: 6,
         question: "Is patient experiencing red, itchy skin?",
-        image:""
+        image:"https://media.istockphoto.com/id/1325725414/vector/young-man-scratching-arm-guy-suffering-from-strong-allergy-skin-itchy-symptom-in-flat-design.jpg?s=612x612&w=0&k=20&c=yJDe2IqJ79FXm4IgctxiFuR2Sc7cwY6SWvibZSpvjAk="
     },
     {
         symptom: 7,
         question: "Please re-evaluate symptoms and consult a healthcare professional. Feel free to restart.",
-        image:""
     },
 ]
 
