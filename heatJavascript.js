@@ -132,6 +132,9 @@ function diagnosis() {
     desc2.innerHTML = `${diseases[pageNumber].care}`;
     img.src = "";
     displayRestart();
+    const video = `
+    <iframe id="videoPlayer" width="560" height="315" src="https://www.youtube.com/watch?v=Qog3GveRj40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+    moreContent.innerHTML += video;
 }
 
 function restart() {
