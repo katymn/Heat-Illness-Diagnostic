@@ -73,7 +73,7 @@ button {
     border: 3px solid #79496a;
     color: #ffcde9;
     padding: 2.5% 10%;
-    margin-top: 15px;
+    margin-top: 18px;
     font-size: 1em;
     font-weight: bold;
 
@@ -84,6 +84,11 @@ button {
 button:hover {
     background-color: #ffcde9;
     color: #542144;
+}
+
+.yesno {
+    display: none;
+    margin: 18px 10% 0px;
 }
 
 /*RESPONSIVENESS*/
@@ -110,6 +115,5 @@ button:hover {
     p {
         font-size:1.3em
       }
-    
   }
   
