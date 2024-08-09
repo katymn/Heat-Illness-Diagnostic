@@ -53,7 +53,7 @@ const questions = [
     {
         symptom: 1,
         question: "Is patient experiencing severe symptoms: i.e. confusion, loss of consciousness, seizures?",
-        image:"https://thumb.ac-illust.com/ba/baad3b42e1ec1fee3ea95a10b11ff3b9_t.jpeg"
+        image:"https://cdn.create.vista.com/api/media/small/648348884/stock-vector-heat-stroke-kid-girl-vector-illustration"
     },
     {
         symptom: 2,
@@ -67,7 +67,7 @@ const questions = [
     },
     {
         symptom: 4,
-        question: "Is patient experiencing breathing difficulties or tingling sensations",
+        question: "Is patient experiencing breathing difficulties or tingling sensations?",
         image:"https://media.istockphoto.com/id/1251461478/vector/it-is-an-illustration-of-a-male-sportsman-who-had-a-fever-cramp-vector-image.jpg?s=612x612&w=0&k=20&c=HfPiZRRgC1uItxroDvcQDlBGkOjgllB-DUN98VkR6lk="
     },
     {
@@ -111,6 +111,8 @@ function updateSymptoms() {
         img.style.display = "none";
         yesButton.style.display = "none";
         noButton.style.display = "none";
+        restartButton.style.display = "inline-flex";
+        
     }
     
 }

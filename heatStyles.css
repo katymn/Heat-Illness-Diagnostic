@@ -86,9 +86,16 @@ button:hover {
     color: #542144;
 }
 
-.yesno {
+.yesno, #restartButton {
     display: none;
+}
+
+.yesno {
     margin: 18px 10% 0px;
+}
+
+#restartButton {
+    margin-top: 0px;
 }
 
 /*RESPONSIVENESS*/
@@ -101,11 +108,14 @@ button:hover {
 
 @media (max-width: 300px) {
     h1 {
-      font-size: 1.4em
+      font-size: 1.4em;
     }
     p {
         font-size:0.95em
       }
+    .content {
+        max-width: 95%;
+    }
   }
 
 @media (min-width: 800px) {
@@ -115,5 +125,8 @@ button:hover {
     p {
         font-size:1.3em
       }
+    .container {
+        min-width: 100vh;
+    }
   }
   
