@@ -55,37 +55,37 @@ const questions = [
         symptom: 1,
         question: "Is patient experiencing severe symptoms: i.e. confusion, loss of consciousness, seizures?",
         image:"https://cdn.create.vista.com/api/media/small/648348884/stock-vector-heat-stroke-kid-girl-vector-illustration",
-        alt:""
+        alt:"Sun causes curly-haired woman to have a seizure on the ground while sweating heavily"
     },
     {
         symptom: 2,
         question: "Is patient experiencing any moderate symptoms: i.e. heavy sweating, rapid pulse, dizziness, nausea?",
         image:"https://thumb.ac-illust.com/ba/baad3b42e1ec1fee3ea95a10b11ff3b9_t.jpeg",
-        alt:""
+        alt:"Sun causes brown-haired boy to sweat heavily, be dizzy, and have a red face"
     },
     {
         symptom: 3,
         question: "Is patient experiencing muscle cramps?",
         image:"https://media.istockphoto.com/id/952974270/vector/worker-of-heat-stroke.jpg?s=612x612&w=0&k=20&c=-HqAwnkO5bUuk5GAvoIrl1Vsg1r3jN9w9-RH2JlAQdE=",
-        alt:""
+        alt:"Sun causes sweating, red-faced construction worker to have a leg cramp"
     },
     {
         symptom: 4,
         question: "Is patient experiencing breathing difficulties or tingling sensations?",
         image:"https://media.istockphoto.com/id/1251461478/vector/it-is-an-illustration-of-a-male-sportsman-who-had-a-fever-cramp-vector-image.jpg?s=612x612&w=0&k=20&c=HfPiZRRgC1uItxroDvcQDlBGkOjgllB-DUN98VkR6lk=",
-        alt:""
+        alt:"Sun causes blue-shirted, heavily sweating boy to sit on the grass because of tingling sensations in his leg"
     },
     {
         symptom: 5,
         question: "Is patient experiencing swelling in extremities?",
         image:"https://media.istockphoto.com/id/1226761464/vector/swelling-of-baby-limbs.jpg?s=612x612&w=0&k=20&c=JEukWDjGQDPS8xvz7I-3YLbW4qGd6yt5MAC8Z3OgLME=",
-        alt:""
+        alt:"A clipart hand and foot swell up"
     },
     {
         symptom: 6,
         question: "Is patient experiencing red, itchy skin?",
         image:"https://media.istockphoto.com/id/1325725414/vector/young-man-scratching-arm-guy-suffering-from-strong-allergy-skin-itchy-symptom-in-flat-design.jpg?s=612x612&w=0&k=20&c=yJDe2IqJ79FXm4IgctxiFuR2Sc7cwY6SWvibZSpvjAk=",
-        alt:""
+        alt:"A blue-shirted boy has a rash on his left forearm"
     },
     {
         symptom: 7,
