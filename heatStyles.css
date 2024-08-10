@@ -98,6 +98,12 @@ button:hover {
     margin-top: 0px;
 }
 
+/* VIDEOS */
+
+iframe {
+    margin-top: 18px;
+}
+
 /*RESPONSIVENESS*/
 
 @media (max-width: 350px) {
