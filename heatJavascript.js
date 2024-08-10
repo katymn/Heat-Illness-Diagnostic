@@ -133,7 +133,7 @@ function diagnosis() {
     }
     else {
         const video = `${diseases[pageNumber].video}`;
-        moreContent.innerHTML += video;}
+        desc2.innerHTML += video;}
 }
 
 function restart() {
