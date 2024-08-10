@@ -1,5 +1,4 @@
 *, ::before, ::after {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vH;
     color: white;
     background-image: url('https://freerangestock.com/sample/153273/a-blurry-image-of-a-red-and-blue-background.jpg');
     background-repeat: no-repeat;
@@ -106,18 +105,21 @@ iframe {
 
 /*RESPONSIVENESS*/
 
-@media (max-width: 350px) {
-    body {
-        height: 120vH;
+@media (max-width: 800px) {
+    .content {
+        margin: 10px auto 13px;
     }
     }
 
 @media (max-width: 300px) {
+    iframe {
+        height: 100px
+    }
     h1 {
       font-size: 1.4em;
     }
     p {
-        font-size:0.95em
+        font-size:0.9em
       }
     .content {
         max-width: 95%;
