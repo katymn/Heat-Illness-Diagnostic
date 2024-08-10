@@ -123,7 +123,7 @@ function updateSymptoms() {
 
 function diagnosis() {
     h1.innerHTML = `${diseases[pageNumber].name}`;
-    desc1.innerHTML = `Your patient may be experiencing <strong>${diseases[pageNumber].name}</strong>. <br><br>${diseases[pageNumber].name} is characterized by ${diseases[pageNumber].symptoms.join(", ")}`
+    desc1.innerHTML = `Your patient may be experiencing <strong>${diseases[pageNumber].name}</strong>. <br><br>${diseases[pageNumber].name} is characterized by ${diseases[pageNumber].symptoms.join(", ")}.`
     desc2.innerHTML = `${diseases[pageNumber].care}`;
     
     displayRestart();
